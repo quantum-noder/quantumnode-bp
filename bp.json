@@ -3,24 +3,45 @@
   "org": {
     "candidate_name": "Quantum Node",
     "website": "https://quantum-noder.github.io/quantumnode-bp",
-    "location": "US"
+    "code_of_conduct": "",
+    "ownership_disclosure": "",
+    "email": "",
+    "github_user": "quantum-noder",
+    "phone": "",
+    "branding": {
+      "logo_256": "",
+      "logo_1024": "",
+      "logo_svg": ""
+    },
+    "location": {
+      "name": "United States",
+      "country": "US"
+    },
+    "social": {
+      "telegram": "QuantumNode",
+      "twitter": "",
+      "keybase": "",
+      "github": "quantum-noder"
+    }
   },
   "nodes": [
     {
-      "location": "US-VA",
-      "node_type": "producer",
-      "p2p_endpoint": "207.244.235.134:9876"
+      "location": {
+        "name": "US",
+        "country": "US"
+      },
+      "node_type": ["query", "seed"],
+      "api_endpoint": "http://207.244.235.134:8888",
+      "p2p_endpoint": "207.244.235.134:9876",
+      "features": ["chain-api"]
     },
     {
-      "location": "US-VA",
-      "node_type": "query",
-      "api_endpoint": "http://207.244.235.134:8888"
+      "location": {
+        "name": "US",
+        "country": "US"
+      },
+      "node_type": "producer"
     }
-  ],
-  "social": {
-    "telegram": "https://t.me/QuantumNode"
-  },
-  "chain": {
-    "chain_id": "71ee83bcf52142d61019d95f9cc5427ba6a0d7ff8accd9e2088ae2abeaf3d3dd"
-  }
+  ]
 }
+
