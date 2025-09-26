@@ -27,7 +27,7 @@
   "nodes": [
     {
       "location": {
-        "name": "US",
+        "name": "St. Louis",
         "country": "US"
       },
       "node_type": ["query", "seed"],
@@ -37,11 +37,10 @@
     },
     {
       "location": {
-        "name": "US",
+        "name": "St. Louis",
         "country": "US"
       },
       "node_type": "producer"
     }
   ]
 }
-
