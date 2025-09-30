@@ -1,0 +1,6 @@
+{
+  "chains": [
+    { "name": "XPR Testnet", "file": "testnet.json" },
+    { "name": "XPR Mainnet", "file": "bp.json" }
+  ]
+}
