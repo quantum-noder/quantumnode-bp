@@ -15,7 +15,9 @@
     },
     "location": {
       "name": "United States",
-      "country": "US"
+      "country": "US",
+      "latitude": 0,
+      "longitude": 0
     },
     "social": {
       "telegram": "QuantumNode",
@@ -27,20 +29,23 @@
   "nodes": [
     {
       "location": {
-        "name": "St. Louis",
-        "country": "US"
+        "name": "Primary",
+        "country": "US",
+        "latitude": 0,
+        "longitude": 0
       },
-      "node_type": ["query", "seed"],
-      "api_endpoint": "http://207.244.235.134:8888",
-      "p2p_endpoint": "207.244.235.134:9876",
-      "features": ["chain-api"]
+      "node_type": "producer"
     },
     {
       "location": {
-        "name": "St. Louis",
-        "country": "US"
+        "name": "Seed",
+        "country": "US",
+        "latitude": 0,
+        "longitude": 0
       },
-      "node_type": "producer"
+      "node_type": ["seed"],
+      "p2p_endpoint": "207.244.235.134:9876",
+      "features": ["p2p"]
     }
   ]
 }
