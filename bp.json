@@ -3,46 +3,17 @@
   "org": {
     "candidate_name": "Quantum Node",
     "website": "https://quantum-noder.github.io/quantumnode-bp",
-    "code_of_conduct": "",
-    "ownership_disclosure": "",
+    "code_of_conduct": "https://xprotect.org/tx/YOUR_SIGNED_TX_OR_PAGE",
+    "ownership_disclosure": "https://quantum-noder.github.io/quantumnode-bp/ownership.html",
     "email": "",
     "github_user": "quantum-noder",
-    "phone": "",
-    "branding": {
-      "logo_256": "",
-      "logo_1024": "",
-      "logo_svg": ""
-    },
-    "location": {
-      "name": "United States",
-      "country": "US",
-      "latitude": 0,
-      "longitude": 0
-    },
-    "social": {
-      "telegram": "QuantumNode",
-      "twitter": "",
-      "keybase": "",
-      "github": "quantum-noder"
-    }
+    "social": { "telegram": "QuantumNode" },
+    "location": { "name": "United States", "country": "US", "latitude": 40.0, "longitude": -74.0 }
   },
   "nodes": [
+    { "location": { "name": "Primary", "country": "US", "latitude": 40.0, "longitude": -74.0 }, "node_type": "producer" },
     {
-      "location": {
-        "name": "Primary",
-        "country": "US",
-        "latitude": 0,
-        "longitude": 0
-      },
-      "node_type": "producer"
-    },
-    {
-      "location": {
-        "name": "Seed",
-        "country": "US",
-        "latitude": 0,
-        "longitude": 0
-      },
+      "location": { "name": "Seed", "country": "US", "latitude": 40.0, "longitude": -74.0 },
       "node_type": ["seed"],
       "p2p_endpoint": "207.244.235.134:9876",
       "features": ["p2p"]
